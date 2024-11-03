@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> الحلويات</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="title"> الحلويات</h1>
+<br>
+<br>
+<br>
+<br> 
+<br> 
+<br> 
+<br> 
+<br>
+        <div class="item">
+        <span class="item-name">مانجو</span>
+        <span class="item-price">5 ج</span>
+    </div><br>
+    <div class="item">
+        <span class="item-name">فراوله</span>
+        <span class="item-price">5 ج</span>
+    </div><br>
+    <div class="item">
+        <span class="item-name">جوافه</span>
+        <span class="item-price">5 ج</span>
+    </div><br>
+    <div class="item">
+        <span class="item-name">بطيخ</span>
+        <span class="item-price">5 ج</span>
+    </div><br>
+    <div class="item">
+        <span class="item-name">كانتلوب  <h6>(شمام الموسمي , شمام العسل)</h6></span>
+        <span class="item-price">5 ج</span>
+    </div><br>
+    <div class="item">
+        <span class="item-name">ليمون</span>
+        <span class="item-price">5 ج</span>
+    </div><br>
+    <div class="item">
+        <span class="item-name">ليمون نعناع </span>
+        <span class="item-price">5 ج</span>
+    </div><br>
+    <div class="item">
+        <span class="item-name">كيوي ساده</span>
+        <span class="item-price">5 ج</span>
+    </div><br>
+    <div class="item">
+        <span class="item-name">كيوي بحليب</span>
+        <span class="item-price">5 ج</span>
+    </div><br>
+    <div class="item">
+        <span class="item-name">موز بحليب</span>
+        <span class="item-price">5 ج</span>
+    </div><br>
+    <div class="item">
+        <span class="item-name">برتقال</span>
+        <span class="item-price">5 ج</span>
+    </div><br>
+    <div class="item">
+        <span class="item-name">بلح بحليب</span>
+        <span class="item-price">5 ج</span>
+    </div><br>
+    <div class="item">
+        <span class="item-name">مانجو بيتش <h6>مانجا + صوص كراميل + ثلج</h6></span>
+        <span class="item-price">5 ج</span>
+    </div><br>
+    <div class="item">
+        <span class="item-name"> اورانج بيتش  <h6>برتقال + صوص كراميل + ثلج</h6></span>
+        <span class="item-price">5 ج</span>
+    </div><br>
+    <div class="item">
+        <span class="item-name">فلوريدا <h6>مانجا + فراوله + جوافه</h6></span>
+        <span class="item-price">5 ج</span>
+    </div><br>
+    <div class="item">
+        <span class="item-name">مكس فلوريدا <h6>مانجا + فراوله + جوافه + قطع فواكه</h6></span>
+        <span class="item-price">5 ج</span>
+    </div><br>
+    <!-- يمكنك إضافة المزيد من العناصر هنا -->
+    <div style="height: 0px;"></div> <!-- لزيادة طول الصفحة لاختبار التمرير -->
+</body>
+
+<style>
+    body {
+        background-color: rgb(255, 255, 255); 
+        /* margin: 0; */
+        font-family: Arial, sans-serif;
+        background-position: center;
+        /* background-repeat: no-repeat; */
+        background-size: contain;
+    }
+
+    .title {
+        position: fixed; /* يجعل العنوان ثابتًا */
+        top: -29px;     
+        left: 50%; /* محاذاة للعكس */
+        transform: translateX(-50%); /* موازنة العنوان في المنتصف */
+        color: rgb(255, 255, 255); /* لون العنوان أسود */
+        font-size: 40px; /* حجم الخط كبير */
+        background-color: rgb(0, 0, 0); /* خلفية بيضاء للعناوين */
+        padding: 36px 0; /* حشو لتوفير مساحة */
+        width: 100%; /* عرض كامل للعنوان */
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* ظل خفيف */
+        /* z-index: 10; يضمن أن يكون فوق العناصر الأخرى */
+        text-align: center;
+    }
+
+    .item {
+        background-color: rgba(27, 27, 27, 0.979); /* خلفية المستطيل أسود */
+        color: white; /* لون النص أبيض */
+        width: 370px; /* عرض المستطيل */
+        padding: 15px; /* حشو داخل المستطيل */
+        display: flex;
+        justify-content: space-between; /* توزيع العناصر */
+        align-items: center; /* محاذاة العناصر عموديًا */
+        border-radius: 38px; /* زوايا مدورة للمستطيل */
+        /* margin: 20px; مساحة من الأعلى */
+    }
+
+    .item-name {
+        flex: 1; /* يجعل الاسم يأخذ المساحة المتاحة */
+    }
+
+    .item-price {
+        margin-left: 10px; /* مساحة بين الاسم والسعر */
+    }
+    span{
+        font-size: 30px;
+    }
+    h6{
+        font-size: small;
+        color: rgb(255, 0, 0);
+    }
+</style>
+</html>
